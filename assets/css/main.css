@@ -25,11 +25,12 @@ nav{
   color: white;
   border-color: white;
   border-radius: 50px;
-  width: 90px;
-  margin-left: 990px;
+  width: 55px;
+  margin-left: 1100px;
 }
 
 ::-webkit-input-placeholder { 
+    text-align: center;
     color: white;
 }
 
@@ -50,6 +51,9 @@ nav {
 }
 
 nav ul {
+  width: 100%;
+  height: 40px;
+  background-color: #4e4e5a;
   list-style: none;
   text-align: center;
   overflow: hidden;
@@ -63,7 +67,6 @@ nav li{
 
 nav a {
   padding: 5px 20px;
-  background-color: darkgray;
   color: #fff;
   padding: 15px;
   text-decoration: none;
@@ -112,4 +115,12 @@ section{
 #new1 p, 
 .icon-facebook{
   margin-left: 20px;
+}
+
+#new3{
+  margin-left: 300px;
+}
+
+#new2{
+  margin-right: 300px;
 }
