@@ -1,25 +1,115 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #ebebeb;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .cabecera{
+  position: fixed;
   background-color: #e00109;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#buscar{
+  background-color: #e00109;
+  color: white;
+  border-color: white;
+  border-radius: 50px;
+  width: 90px;
+  margin-left: 990px;
+}
+
+::-webkit-input-placeholder { 
+    color: white;
 }
 
 li {
   list-style: none;
 }
 
+/*.nav-line{
+  width: 100%;
+  height: 50px;
+  background-color: #5c5c66;
+}
+*/
+
 nav {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
   overflow: hidden;
 }
 
-nav li {
-  display: inline;
-  float: left;
+nav li{
+  display: inline-block;
+  margin: 0 -4px;
+  padding: 5px 0;
 }
 
 nav a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  padding: 25px;
-  transition: 0.3s all;
+  padding: 5px 20px;
   background-color: darkgray;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.sprite-logo{
+  margin-left: 100px;
+}
+
+.social .icon-twitter{
+  margin-left: 400px;
+}
+
+section .icon-facebook,
+section .icon-twitter,
+section .icon-sharing{
+  color: white;
+  background-color: darkgrey;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+section{
+  left: 30px;
+  padding-left: 210px;
+}
+
+.col{
+  float: left;
+  width: 50%;
+}
+
+#new1,
+#new2,
+#new3{
+  background-color: #333340;
+  color: #eeeeef;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#new1{
+  columns: 2;
+}
+
+#new1 p, 
+.icon-facebook{
+  margin-left: 20px;
 }
